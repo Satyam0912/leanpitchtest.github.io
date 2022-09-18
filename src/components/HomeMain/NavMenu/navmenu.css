@@ -1,0 +1,13 @@
+.navmenu {
+    text-align: left;
+}
+
+.navmenu .nav-link {
+    color: white;
+}
+
+.navmenu .nav-link:hover {
+    background-color: bisque;
+    color: black;
+    font-weight: bold;
+}

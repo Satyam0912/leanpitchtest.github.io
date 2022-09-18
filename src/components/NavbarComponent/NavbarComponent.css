@@ -1,0 +1,37 @@
+:root {
+    --height: 90px;
+}
+
+.navbar {
+    height: var(--height);
+}
+
+.navbar-brand {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    height: var(--height);
+    flex-direction: row;
+}
+
+.navbar-menu a {
+    height: var(--height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.navbar-menu a:hover {
+    background: red;
+}
+
+@media screen and(max-width:500px) {
+    .navbar-menu a {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+}
