@@ -1,7 +1,13 @@
 .homeMainPage {
     height: 100vh;
     width: 100%;
+    padding: 2vh 5vh;
     background-image: url(../../assests/homeBgImg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.homeContent{
+    height: 70vh;
+    width: 60vw;
 }

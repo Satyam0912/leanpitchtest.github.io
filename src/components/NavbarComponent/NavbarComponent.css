@@ -8,12 +8,10 @@
 
 .navbar-brand {
     font-size: 2.3rem;
-    font-weight: bold;
 }
 
 .navbar-menu {
     height: var(--height);
-    flex-direction: row;
 }
 
 .navbar-menu a {

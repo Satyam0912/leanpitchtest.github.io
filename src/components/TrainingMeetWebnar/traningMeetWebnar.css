@@ -1,0 +1,24 @@
+.TrainingMeetWebnar {
+    padding: 5vh;
+}
+
+.trainingTitle,
+.meetupTitle,
+.webnarTitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+}
+
+.card {
+    min-width: 18rem;
+}
+
+.trainings,
+.webnars {
+    overflow-x: scroll;
+}
+
+.meetupSection a,
+.webnarSection a {
+    border-radius: 0;
+}

@@ -4,6 +4,9 @@ import NavbarComponent from './components/NavbarComponent/NavbarComponent';
 import HomeMain from './components/HomeMain/HomeMain';
 import HomeMidSection from './components/HomeMidSection/HomeMidSection';
 import LabComponent from './components/LabComponent/LabComponent';
+import TrainingMeetWebnar from './components/TrainingMeetWebnar/TrainingMeetWebnar';
+import Conference from './components/Conference/Conference';
+
 
 function App() {
   return (
@@ -11,7 +14,9 @@ function App() {
       <NavbarComponent />
       <HomeMain />
       <HomeMidSection />
-      <LabComponent  />
+      <LabComponent />
+      <TrainingMeetWebnar />
+      <Conference />
     </div>
   );
 }

@@ -1,14 +1,14 @@
 .labComponent {
-    background-color: black;
-    color: white;
+    padding: 5vh 7vh;
 }
 
 .labLeft {
     font-size: 1.2rem;
-    text-align: left;
 }
 
-.labRight {}
+.labParagraph{
+    text-align: left;
+}
 
 .labTitle {
     font-size: 4.5rem;
@@ -18,10 +18,10 @@
 .labbtnSection button {
     padding: 0px 20px;
     margin-left: 20px;
-    color: white;
-    background-color: red;
     border-radius: 50px;
     font-size: 2rem;
+    background-color: red;
+    color: white;
 }
 
 .labbtnSection button:hover {

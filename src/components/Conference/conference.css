@@ -1,0 +1,12 @@
+.conference {
+    padding: 7vh;
+}
+
+.conferenceTitle {
+    font-size: 4.5rem;
+    margin-bottom: 5vh;
+}
+
+.conference .btn {
+    border-radius: 0;
+}

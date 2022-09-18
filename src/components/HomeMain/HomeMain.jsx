@@ -7,7 +7,7 @@ import HomeContent from './HomeContent/HomeContent';
 const HomeMain = () => {
     return (
         <Container className='homeMainPage' fluid>
-            <Row>
+            <Row style={{ height: 'inherit' }}>
                 <Col md={3}><NavMenu /></Col>
                 <Col md={9}><HomeContent /></Col>
             </Row>
