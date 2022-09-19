@@ -1,0 +1,14 @@
+.videosTitle,
+.speakSeriesTitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+}
+
+.card {
+    min-width: 18rem;
+}
+
+.videos,
+.speakSeries {
+    overflow-x: scroll;
+}

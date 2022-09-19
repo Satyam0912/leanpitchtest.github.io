@@ -6,7 +6,7 @@ import HomeMidSection from './components/HomeMidSection/HomeMidSection';
 import LabComponent from './components/LabComponent/LabComponent';
 import TrainingMeetWebnar from './components/TrainingMeetWebnar/TrainingMeetWebnar';
 import Conference from './components/Conference/Conference';
-
+import VideoBlogPodcast from './components/VideoBlogsPodcasts/VideoBlogPodcast';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <LabComponent />
       <TrainingMeetWebnar />
       <Conference />
+      <VideoBlogPodcast />
     </div>
   );
 }
